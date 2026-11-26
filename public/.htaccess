@@ -1,0 +1,19 @@
+# =============================================================================
+# CẤU HÌNH APACHE CHO THƯ MỤC PUBLIC (FRONT CONTROLLER) — TL GAMING
+# =============================================================================
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Giữ nguyên HTTP Authorization Header nếu có
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Nếu đường dẫn yêu cầu không phải là tệp tĩnh hoặc thư mục thật trong public/
+    # thì chuyển tiếp toàn bộ về Front Controller `index.php`
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

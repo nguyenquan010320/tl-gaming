@@ -1,0 +1,7 @@
+# Thư mục lưu tệp tải lên (ảnh sản phẩm, ảnh biên lai thanh toán)
+Options -Indexes
+<FilesMatch "\.(php|phtml|phar|pl|py|cgi|sh)$">
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>

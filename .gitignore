@@ -1,0 +1,50 @@
+# =============================================================================
+# TL Gaming — Tệp/thư mục KHÔNG được đưa vào kho mã nguồn hoặc gói bàn giao
+# =============================================================================
+
+# Cấu hình môi trường thật (chứa mật khẩu MySQL). Chỉ chia sẻ .env.example
+.env
+.env.*
+!.env.example
+
+# Nhật ký (log), bộ nhớ đệm (cache) và dữ liệu chạy thực tế
+*.log
+logs/
+cache/
+storage/ratelimit/*
+!storage/ratelimit/.gitkeep
+storage/cache/
+storage/logs/
+storage/sessions/
+/storage/locks/
+/storage/contact-settings.json
+/storage/contact-settings-*.tmp
+/storage/home-banner.json
+/storage/home-banner-*.tmp
+/storage/home-banner.lock
+# Giữ hình ảnh sản phẩm mẫu đi cùng seed
+/public/uploads/*
+!/public/uploads/.htaccess
+!/public/uploads/products/
+/public/uploads/products/prod_*
+
+# Ảnh chụp, kết quả kiểm thử và bản lưu cục bộ
+/docs/screenshots/
+/docs/database/backup_before_revision/
+/audit_results.json
+
+# Tệp hệ điều hành / trình soạn thảo / công cụ
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+vendor/
+node_modules/
+__pycache__/
+*.py[cod]
+
+# Sao lưu cơ sở dữ liệu chứa dữ liệu thật
+*.sql.bak
+database/backup_*.sql
+database/*_real*.sql

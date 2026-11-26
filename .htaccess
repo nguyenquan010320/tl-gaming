@@ -1,0 +1,22 @@
+# =============================================================================
+# CẤU HÌNH BẢO VỆ THƯ MỤC GỐC DỰ ÁN — TL GAMING
+# Chặn truy cập trực tiếp vào các thư mục nội bộ (app, config, database, docs, routes)
+# và chuyển hướng các yêu cầu hợp lệ vào thư mục public/
+# =============================================================================
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 1. Chặn tuyệt đối truy cập HTTP trực tiếp vào các tệp cấu hình, kịch bản kiểm thử, log/storage và thư mục nội bộ
+    RewriteRule ^(app|config|database|docs|routes|storage|scripts)(/.*)?$ - [F,L,NC]
+    RewriteRule ^(\.env|\.env\.example|run_db_audit\.php|run_db_audit\.py|build_diagrams\.py|audit_results\.json|FINAL_DATABASE_TEST_REPORT\.md)$ - [F,L,NC]
+
+    # 2. Chuyển hướng nội bộ các yêu cầu khác về thư mục public/ (nếu chạy qua http://localhost/tl-gaming/)
+    RewriteCond %{REQUEST_URI} !^/tl-gaming/public/ [NC]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ public/$1 [L,QSA]
+
+    RewriteRule ^$ public/index.php [L]
+</IfModule>

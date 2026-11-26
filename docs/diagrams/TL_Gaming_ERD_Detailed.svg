@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2420 1100" width="2420" height="1100">
+  <defs>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="2" dy="3" stdDeviation="3" flood-color="#000000" flood-opacity="0.12"/>
+    </filter>
+    <marker id="crow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9" fill="none" stroke="#4A5568" stroke-width="1.5"/>
+    </marker>
+    <marker id="one" viewBox="0 0 10 10" refX="2" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <line x1="2" y1="1" x2="2" y2="9" stroke="#4A5568" stroke-width="2"/>
+    </marker>
+  </defs>
+  <!-- Nền sơ đồ -->
+  <rect width="2420" height="1100" fill="#F8F9FA"/>
+  <!-- Header tiêu đề -->
+  <rect x="0" y="0" width="2420" height="65" fill="#1A365D"/>
+  <text x="1210" y="32" font-family="Segoe UI, Roboto, sans-serif" font-size="20" font-weight="bold" fill="#FFFFFF" text-anchor="middle">SƠ ĐỒ CƠ SỞ DỮ LIỆU CHI TIẾT (DETAILED ERD) - WEBSITE MÁY TÍNH CŨ TL GAMING</text>
+  <text x="1210" y="52" font-family="Segoe UI, Roboto, sans-serif" font-size="12" fill="#E2E8F0" text-anchor="middle">Hệ thống 14 Bảng chuẩn hóa InnoDB | MySQL 8.0 &amp; MariaDB | Đầy đủ 20 Khóa ngoại và Kiểu dữ liệu</text>
+  <path d="M 50 120 C 10 90, 10 170, 50 140" fill="none" stroke="#4A5568" stroke-width="1.5" marker-end="url(#crow)"/>
+  <text x="5" y="130" font-family="Segoe UI" font-size="10" fill="#2D3748" text-anchor="end">1:0..n</text>
+  <path d="M 340 130 L 380 130 L 380 130 L 420 130" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="345" y="121" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="380" y="133" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 580 450 L 580 555 L 195 555 L 195 660" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="352" y="542" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="387" y="554" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 580 450 L 580 415 L 195 415 L 195 380" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="352" y="402" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="387" y="414" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 740 130 L 780 130 L 780 130 L 820 130" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="745" y="121" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="780" y="133" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 980 330 L 980 390 L 975 390 L 975 450" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="942" y="377" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="977" y="389" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 1390 310 L 1390 380 L 975 380 L 975 450" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1147" y="367" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="1182" y="379" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">0..1</text>
+  <path d="M 975 620 L 975 650 L 985 650 L 985 680" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="945" y="637" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="980" y="649" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 1390 310 L 1390 430 L 560 430 L 560 550" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="940" y="417" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="975" y="429" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 560 660 L 560 690 L 560 690 L 560 720" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="525" y="677" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="560" y="689" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 580 450 L 580 585 L 560 585 L 560 720" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="535" y="572" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="570" y="584" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 1540 130 L 1590 130 L 1590 130 L 1640 130" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1555" y="121" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="1590" y="133" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">0..1</text>
+  <path d="M 2040 140 L 2000 140 L 2000 140 L 1960 140" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1965" y="131" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="2000" y="143" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">0..1</text>
+  <path d="M 1800 510 L 1800 465 L 1395 465 L 1395 420" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1562" y="452" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="1597" y="464" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 740 130 L 990 130 L 990 470 L 1240 470" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="955" y="291" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="990" y="303" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 1140 130 L 1190 130 L 1190 470 L 1240 470" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1155" y="291" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="1190" y="303" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">0..1</text>
+  <path d="M 1140 130 L 1190 130 L 1190 470 L 1240 470" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1155" y="291" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="1190" y="303" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">0..1</text>
+  <path d="M 1800 510 L 1800 585 L 1800 585 L 1800 660" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1765" y="572" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="1800" y="584" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 1540 130 L 1590 130 L 1590 710 L 1640 710" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1555" y="411" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="1590" y="423" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">0..1</text>
+  <path d="M 2195 410 L 2195 480 L 2195 480 L 2195 550" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="2160" y="467" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="2195" y="479" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 1960 130 L 2000 130 L 2000 600 L 2040 600" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1965" y="356" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="2000" y="368" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">1</text>
+  <path d="M 1540 130 L 1790 130 L 1790 600 L 2040 600" fill="none" stroke="#718096" stroke-width="1.5" stroke-dasharray="none" marker-start="url(#one)" marker-end="url(#crow)"/>
+  <rect x="1755" y="356" width="70" height="16" fill="#FFFFFF" rx="3" stroke="#CBD5E0" stroke-width="0.8"/>
+  <text x="1790" y="368" font-family="Segoe UI, Roboto, sans-serif" font-size="9" fill="#2D3748" text-anchor="middle" font-weight="bold">0..1</text>
+  <!-- Bảng users -->
+  <g filter="url(#shadow)">
+    <rect x="1240" y="80" width="300" height="240" rx="6" fill="#FFFFFF" stroke="#6C8EBF" stroke-width="1.8"/>
+    <path d="M 1240 116 L 1240 86 Q 1240 80 1246 80 L 1534 80 Q 1540 80 1540 86 L 1540 116 Z" fill="#DAE8FC"/>
+    <line x1="1240" y1="116" x2="1540" y2="116" stroke="#6C8EBF" stroke-width="1.5"/>
+    <text x="1390" y="98" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">users</text>
+    <text x="1390" y="111" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Tài khoản & Phân quyền)</text>
+    <text x="1250" y="130" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="1375" y="130" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1530" y="130" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="1241" y="136" width="298" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="150" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">role</text>
+    <text x="1375" y="150" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('customer','admin')</text>
+    <text x="1530" y="150" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'customer'</text>
+    <text x="1250" y="170" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">email</text>
+    <text x="1375" y="170" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(191)</text>
+    <text x="1530" y="170" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#38A169" text-anchor="end">[UQ]</text>
+    <rect x="1241" y="176" width="298" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="190" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">password_hash</text>
+    <text x="1375" y="190" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <text x="1250" y="210" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">full_name</text>
+    <text x="1375" y="210" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <rect x="1241" y="216" width="298" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="230" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">phone</text>
+    <text x="1375" y="230" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(20)</text>
+    <text x="1530" y="230" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">[IDX]</text>
+    <text x="1250" y="250" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">address</text>
+    <text x="1375" y="250" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="1241" y="256" width="298" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="270" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">status</text>
+    <text x="1375" y="270" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('active','locked')</text>
+    <text x="1530" y="270" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'active'</text>
+    <text x="1250" y="290" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="1375" y="290" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1530" y="290" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <rect x="1241" y="296" width="298" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="310" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="1375" y="310" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1530" y="310" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng categories -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="80" width="290" height="220" rx="6" fill="#FFFFFF" stroke="#82B366" stroke-width="1.8"/>
+    <path d="M 50 116 L 50 86 Q 50 80 56 80 L 334 80 Q 340 80 340 86 L 340 116 Z" fill="#D5E8D4"/>
+    <line x1="50" y1="116" x2="340" y2="116" stroke="#82B366" stroke-width="1.5"/>
+    <text x="195" y="98" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">categories</text>
+    <text x="195" y="111" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Danh mục sản phẩm)</text>
+    <text x="60" y="130" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="185" y="130" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="330" y="130" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="51" y="136" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="150" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">parent_id</text>
+    <text x="185" y="150" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="330" y="150" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <text x="60" y="170" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">name</text>
+    <text x="185" y="170" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <rect x="51" y="176" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="190" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">slug</text>
+    <text x="185" y="190" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(120)</text>
+    <text x="330" y="190" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#38A169" text-anchor="end">[UQ]</text>
+    <text x="60" y="210" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">description</text>
+    <text x="185" y="210" font-family="Consolas, monospace" font-size="10" fill="#4A5568">TEXT</text>
+    <rect x="51" y="216" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="230" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">display_order</text>
+    <text x="185" y="230" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT</text>
+    <text x="330" y="230" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <text x="60" y="250" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">is_active</text>
+    <text x="185" y="250" font-family="Consolas, monospace" font-size="10" fill="#4A5568">TINYINT(1)</text>
+    <text x="330" y="250" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 1</text>
+    <rect x="51" y="256" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="270" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="185" y="270" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="330" y="270" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <text x="60" y="290" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="185" y="290" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="330" y="290" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng products -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="80" width="320" height="380" rx="6" fill="#FFFFFF" stroke="#82B366" stroke-width="1.8"/>
+    <path d="M 420 116 L 420 86 Q 420 80 426 80 L 734 80 Q 740 80 740 86 L 740 116 Z" fill="#D5E8D4"/>
+    <line x1="420" y1="116" x2="740" y2="116" stroke="#82B366" stroke-width="1.5"/>
+    <text x="580" y="98" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">products</text>
+    <text x="580" y="111" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Dòng sản phẩm / Model)</text>
+    <text x="430" y="130" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="555" y="130" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="730" y="130" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="421" y="136" width="318" height="20" fill="#F7FAFC"/>
+    <text x="430" y="150" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">category_id</text>
+    <text x="555" y="150" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="730" y="150" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <text x="430" y="170" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">name</text>
+    <text x="555" y="170" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="421" y="176" width="318" height="20" fill="#F7FAFC"/>
+    <text x="430" y="190" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">slug</text>
+    <text x="555" y="190" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <text x="730" y="190" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#38A169" text-anchor="end">[UQ]</text>
+    <text x="430" y="210" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">sku</text>
+    <text x="555" y="210" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(50)</text>
+    <text x="730" y="210" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#38A169" text-anchor="end">[UQ]</text>
+    <rect x="421" y="216" width="318" height="20" fill="#F7FAFC"/>
+    <text x="430" y="230" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">summary</text>
+    <text x="555" y="230" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(500)</text>
+    <text x="430" y="250" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">description</text>
+    <text x="555" y="250" font-family="Consolas, monospace" font-size="10" fill="#4A5568">LONGTEXT</text>
+    <rect x="421" y="256" width="318" height="20" fill="#F7FAFC"/>
+    <text x="430" y="270" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">price</text>
+    <text x="555" y="270" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="430" y="290" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">original_price</text>
+    <text x="555" y="290" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <rect x="421" y="296" width="318" height="20" fill="#F7FAFC"/>
+    <text x="430" y="310" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">warranty_months</text>
+    <text x="555" y="310" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="730" y="310" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 12</text>
+    <text x="430" y="330" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">condition_overview</text>
+    <text x="555" y="330" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <rect x="421" y="336" width="318" height="20" fill="#F7FAFC"/>
+    <text x="430" y="350" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">stock_quantity</text>
+    <text x="555" y="350" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="730" y="350" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <text x="430" y="370" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">has_serials</text>
+    <text x="555" y="370" font-family="Consolas, monospace" font-size="10" fill="#4A5568">TINYINT(1)</text>
+    <text x="730" y="370" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 1</text>
+    <rect x="421" y="376" width="318" height="20" fill="#F7FAFC"/>
+    <text x="430" y="390" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">thumbnail</text>
+    <text x="555" y="390" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <text x="430" y="410" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">status</text>
+    <text x="555" y="410" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('draft','pub...')</text>
+    <text x="730" y="410" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'draft'</text>
+    <rect x="421" y="416" width="318" height="20" fill="#F7FAFC"/>
+    <text x="430" y="430" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="555" y="430" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="730" y="430" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <text x="430" y="450" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="555" y="450" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="730" y="450" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng product_images -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="660" width="290" height="180" rx="6" fill="#FFFFFF" stroke="#82B366" stroke-width="1.8"/>
+    <path d="M 50 696 L 50 666 Q 50 660 56 660 L 334 660 Q 340 660 340 666 L 340 696 Z" fill="#D5E8D4"/>
+    <line x1="50" y1="696" x2="340" y2="696" stroke="#82B366" stroke-width="1.5"/>
+    <text x="195" y="678" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">product_images</text>
+    <text x="195" y="691" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Ảnh thực tế sản phẩm)</text>
+    <text x="60" y="710" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="185" y="710" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="330" y="710" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">[PK, UQ_PROD]</text>
+    <rect x="51" y="716" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="730" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">product_id</text>
+    <text x="185" y="730" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="330" y="730" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, UQ_PROD]</text>
+    <text x="60" y="750" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">image_url</text>
+    <text x="185" y="750" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="51" y="756" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="770" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">alt_text</text>
+    <text x="185" y="770" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <text x="60" y="790" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">sort_order</text>
+    <text x="185" y="790" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT</text>
+    <text x="330" y="790" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <rect x="51" y="796" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="810" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">is_primary</text>
+    <text x="185" y="810" font-family="Consolas, monospace" font-size="10" fill="#4A5568">TINYINT(1)</text>
+    <text x="330" y="810" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <text x="60" y="830" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="185" y="830" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="330" y="830" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+  </g>
+  <!-- Bảng product_specs -->
+  <g filter="url(#shadow)">
+    <rect x="50" y="380" width="290" height="200" rx="6" fill="#FFFFFF" stroke="#82B366" stroke-width="1.8"/>
+    <path d="M 50 416 L 50 386 Q 50 380 56 380 L 334 380 Q 340 380 340 386 L 340 416 Z" fill="#D5E8D4"/>
+    <line x1="50" y1="416" x2="340" y2="416" stroke="#82B366" stroke-width="1.5"/>
+    <text x="195" y="398" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">product_specs</text>
+    <text x="195" y="411" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Thông số kỹ thuật phần cứng)</text>
+    <text x="60" y="430" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="185" y="430" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="330" y="430" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">[PK, UQ_PROD]</text>
+    <rect x="51" y="436" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="450" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">product_id</text>
+    <text x="185" y="450" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="330" y="450" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, UQ_PROD]</text>
+    <text x="60" y="470" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">group_name</text>
+    <text x="185" y="470" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <rect x="51" y="476" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="490" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">spec_name</text>
+    <text x="185" y="490" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <text x="60" y="510" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">spec_value</text>
+    <text x="185" y="510" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="51" y="516" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="530" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">sort_order</text>
+    <text x="185" y="530" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT</text>
+    <text x="330" y="530" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <text x="60" y="550" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="185" y="550" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="330" y="550" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <rect x="51" y="556" width="288" height="20" fill="#F7FAFC"/>
+    <text x="60" y="570" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="185" y="570" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="330" y="570" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng product_units -->
+  <g filter="url(#shadow)">
+    <rect x="820" y="80" width="320" height="260" rx="6" fill="#FFFFFF" stroke="#D79B00" stroke-width="1.8"/>
+    <path d="M 820 116 L 820 86 Q 820 80 826 80 L 1134 80 Q 1140 80 1140 86 L 1140 116 Z" fill="#FFE6CC"/>
+    <line x1="820" y1="116" x2="1140" y2="116" stroke="#D79B00" stroke-width="1.5"/>
+    <text x="980" y="98" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">product_units</text>
+    <text x="980" y="111" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Cá thể máy cũ (Serial))</text>
+    <text x="830" y="130" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="955" y="130" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1130" y="130" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">[PK, UQ_PROD]</text>
+    <rect x="821" y="136" width="318" height="20" fill="#F7FAFC"/>
+    <text x="830" y="150" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">product_id</text>
+    <text x="955" y="150" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1130" y="150" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, UQ_PROD]</text>
+    <text x="830" y="170" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">serial_number</text>
+    <text x="955" y="170" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <text x="1130" y="170" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#38A169" text-anchor="end">[UQ]</text>
+    <rect x="821" y="176" width="318" height="20" fill="#F7FAFC"/>
+    <text x="830" y="190" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">hardware_condition_detail</text>
+    <text x="955" y="190" font-family="Consolas, monospace" font-size="10" fill="#4A5568">TEXT</text>
+    <text x="830" y="210" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">battery_health</text>
+    <text x="955" y="210" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1130" y="210" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">0-100%</text>
+    <rect x="821" y="216" width="318" height="20" fill="#F7FAFC"/>
+    <text x="830" y="230" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">cosmetic_grade</text>
+    <text x="955" y="230" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('Grade A/B/C')</text>
+    <text x="1130" y="230" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'Grade A'</text>
+    <text x="830" y="250" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">status</text>
+    <text x="955" y="250" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('avail/sold...')</text>
+    <text x="1130" y="250" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'available'</text>
+    <rect x="821" y="256" width="318" height="20" fill="#F7FAFC"/>
+    <text x="830" y="270" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">import_price</text>
+    <text x="955" y="270" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="830" y="290" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">imported_at</text>
+    <text x="955" y="290" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1130" y="290" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <rect x="821" y="296" width="318" height="20" fill="#F7FAFC"/>
+    <text x="830" y="310" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="955" y="310" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1130" y="310" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <text x="830" y="330" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="955" y="330" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1130" y="330" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng product_inspections -->
+  <g filter="url(#shadow)">
+    <rect x="820" y="450" width="310" height="180" rx="6" fill="#FFFFFF" stroke="#D79B00" stroke-width="1.8"/>
+    <path d="M 820 486 L 820 456 Q 820 450 826 450 L 1124 450 Q 1130 450 1130 456 L 1130 486 Z" fill="#FFE6CC"/>
+    <line x1="820" y1="486" x2="1130" y2="486" stroke="#D79B00" stroke-width="1.5"/>
+    <text x="975" y="468" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">product_inspections</text>
+    <text x="975" y="481" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Phiên kiểm định phần cứng)</text>
+    <text x="830" y="500" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="955" y="500" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1120" y="500" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="821" y="506" width="308" height="20" fill="#F7FAFC"/>
+    <text x="830" y="520" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">unit_id</text>
+    <text x="955" y="520" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1120" y="520" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <text x="830" y="540" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">inspector_id</text>
+    <text x="955" y="540" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1120" y="540" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <rect x="821" y="546" width="308" height="20" fill="#F7FAFC"/>
+    <text x="830" y="560" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">inspection_date</text>
+    <text x="955" y="560" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1120" y="560" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <text x="830" y="580" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">checklist_overall_result</text>
+    <text x="955" y="580" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('passed/cond/fail')</text>
+    <text x="1120" y="580" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'passed'</text>
+    <rect x="821" y="586" width="308" height="20" fill="#F7FAFC"/>
+    <text x="830" y="600" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">notes</text>
+    <text x="955" y="600" font-family="Consolas, monospace" font-size="10" fill="#4A5568">TEXT</text>
+    <text x="830" y="620" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="955" y="620" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1120" y="620" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+  </g>
+  <!-- Bảng inspection_items -->
+  <g filter="url(#shadow)">
+    <rect x="820" y="680" width="330" height="200" rx="6" fill="#FFFFFF" stroke="#D79B00" stroke-width="1.8"/>
+    <path d="M 820 716 L 820 686 Q 820 680 826 680 L 1144 680 Q 1150 680 1150 686 L 1150 716 Z" fill="#FFE6CC"/>
+    <line x1="820" y1="716" x2="1150" y2="716" stroke="#D79B00" stroke-width="1.5"/>
+    <text x="985" y="698" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">inspection_items</text>
+    <text x="985" y="711" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Chi tiết 18 bước kiểm tra)</text>
+    <text x="830" y="730" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="955" y="730" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1140" y="730" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="821" y="736" width="328" height="20" fill="#F7FAFC"/>
+    <text x="830" y="750" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">inspection_id</text>
+    <text x="955" y="750" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1140" y="750" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, UQ_STEP]</text>
+    <text x="830" y="770" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">step_number</text>
+    <text x="955" y="770" font-family="Consolas, monospace" font-size="10" fill="#4A5568">TINYINT UNSIGNED</text>
+    <text x="1140" y="770" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">[UQ_STEP, 1-18]</text>
+    <rect x="821" y="776" width="328" height="20" fill="#F7FAFC"/>
+    <text x="830" y="790" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">group_name</text>
+    <text x="955" y="790" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <text x="830" y="810" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">item_name</text>
+    <text x="955" y="810" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(150)</text>
+    <rect x="821" y="816" width="328" height="20" fill="#F7FAFC"/>
+    <text x="830" y="830" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">result</text>
+    <text x="955" y="830" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('pass/fail/warn/na')</text>
+    <text x="1140" y="830" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'pass'</text>
+    <text x="830" y="850" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">notes</text>
+    <text x="955" y="850" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="821" y="856" width="328" height="20" fill="#F7FAFC"/>
+    <text x="830" y="870" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="955" y="870" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1140" y="870" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+  </g>
+  <!-- Bảng carts -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="550" width="280" height="120" rx="6" fill="#FFFFFF" stroke="#9673A6" stroke-width="1.8"/>
+    <path d="M 420 586 L 420 556 Q 420 550 426 550 L 694 550 Q 700 550 700 556 L 700 586 Z" fill="#E1D5E7"/>
+    <line x1="420" y1="586" x2="700" y2="586" stroke="#9673A6" stroke-width="1.5"/>
+    <text x="560" y="568" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">carts</text>
+    <text x="560" y="581" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Giỏ hàng thành viên)</text>
+    <text x="430" y="600" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="555" y="600" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="690" y="600" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="421" y="606" width="278" height="20" fill="#F7FAFC"/>
+    <text x="430" y="620" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">user_id</text>
+    <text x="555" y="620" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="690" y="620" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, UQ]</text>
+    <text x="430" y="640" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="555" y="640" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="690" y="640" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <rect x="421" y="646" width="278" height="20" fill="#F7FAFC"/>
+    <text x="430" y="660" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="555" y="660" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="690" y="660" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng cart_items -->
+  <g filter="url(#shadow)">
+    <rect x="420" y="720" width="280" height="160" rx="6" fill="#FFFFFF" stroke="#9673A6" stroke-width="1.8"/>
+    <path d="M 420 756 L 420 726 Q 420 720 426 720 L 694 720 Q 700 720 700 726 L 700 756 Z" fill="#E1D5E7"/>
+    <line x1="420" y1="756" x2="700" y2="756" stroke="#9673A6" stroke-width="1.5"/>
+    <text x="560" y="738" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">cart_items</text>
+    <text x="560" y="751" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Chi tiết mặt hàng trong giỏ)</text>
+    <text x="430" y="770" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="555" y="770" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="690" y="770" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="421" y="776" width="278" height="20" fill="#F7FAFC"/>
+    <text x="430" y="790" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">cart_id</text>
+    <text x="555" y="790" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="690" y="790" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <text x="430" y="810" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">product_id</text>
+    <text x="555" y="810" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="690" y="810" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <rect x="421" y="816" width="278" height="20" fill="#F7FAFC"/>
+    <text x="430" y="830" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">quantity</text>
+    <text x="555" y="830" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="690" y="830" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 1</text>
+    <text x="430" y="850" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="555" y="850" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="690" y="850" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <rect x="421" y="856" width="278" height="20" fill="#F7FAFC"/>
+    <text x="430" y="870" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="555" y="870" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="690" y="870" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng coupons -->
+  <g filter="url(#shadow)">
+    <rect x="2040" y="80" width="310" height="340" rx="6" fill="#FFFFFF" stroke="#B85450" stroke-width="1.8"/>
+    <path d="M 2040 116 L 2040 86 Q 2040 80 2046 80 L 2344 80 Q 2350 80 2350 86 L 2350 116 Z" fill="#F8CECC"/>
+    <line x1="2040" y1="116" x2="2350" y2="116" stroke="#B85450" stroke-width="1.5"/>
+    <text x="2195" y="98" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">coupons</text>
+    <text x="2195" y="111" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Mã giảm giá (Voucher))</text>
+    <text x="2050" y="130" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="2175" y="130" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="2340" y="130" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="2041" y="136" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="150" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">code</text>
+    <text x="2175" y="150" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(50)</text>
+    <text x="2340" y="150" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#38A169" text-anchor="end">[UQ]</text>
+    <text x="2050" y="170" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">description</text>
+    <text x="2175" y="170" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="2041" y="176" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="190" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">discount_type</text>
+    <text x="2175" y="190" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('%/fixed')</text>
+    <text x="2050" y="210" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">discount_value</text>
+    <text x="2175" y="210" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <rect x="2041" y="216" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="230" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">max_discount_amount</text>
+    <text x="2175" y="230" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="2050" y="250" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">min_order_amount</text>
+    <text x="2175" y="250" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="2340" y="250" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <rect x="2041" y="256" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="270" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">usage_limit</text>
+    <text x="2175" y="270" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="2340" y="270" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <text x="2050" y="290" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">usage_count</text>
+    <text x="2175" y="290" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="2340" y="290" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <rect x="2041" y="296" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="310" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">per_user_limit</text>
+    <text x="2175" y="310" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="2340" y="310" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 1</text>
+    <text x="2050" y="330" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">start_date</text>
+    <text x="2175" y="330" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <rect x="2041" y="336" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="350" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">end_date</text>
+    <text x="2175" y="350" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="2050" y="370" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">is_active</text>
+    <text x="2175" y="370" font-family="Consolas, monospace" font-size="10" fill="#4A5568">TINYINT(1)</text>
+    <text x="2340" y="370" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 1</text>
+    <rect x="2041" y="376" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="390" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="2175" y="390" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="2340" y="390" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <text x="2050" y="410" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="2175" y="410" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="2340" y="410" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng orders -->
+  <g filter="url(#shadow)">
+    <rect x="1640" y="80" width="320" height="440" rx="6" fill="#FFFFFF" stroke="#1ABC9C" stroke-width="1.8"/>
+    <path d="M 1640 116 L 1640 86 Q 1640 80 1646 80 L 1954 80 Q 1960 80 1960 86 L 1960 116 Z" fill="#D0ECE7"/>
+    <line x1="1640" y1="116" x2="1960" y2="116" stroke="#1ABC9C" stroke-width="1.5"/>
+    <text x="1800" y="98" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">orders</text>
+    <text x="1800" y="111" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Đơn đặt hàng (Hỗ trợ Guest))</text>
+    <text x="1650" y="130" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="1775" y="130" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1950" y="130" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="1641" y="136" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="150" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">order_code</text>
+    <text x="1775" y="150" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(32)</text>
+    <text x="1950" y="150" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#38A169" text-anchor="end">[UQ]</text>
+    <text x="1650" y="170" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">user_id</text>
+    <text x="1775" y="170" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1950" y="170" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, Guest NULL]</text>
+    <rect x="1641" y="176" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="190" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">customer_name</text>
+    <text x="1775" y="190" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <text x="1650" y="210" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">customer_email</text>
+    <text x="1775" y="210" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(191)</text>
+    <rect x="1641" y="216" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="230" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">customer_phone</text>
+    <text x="1775" y="230" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(20)</text>
+    <text x="1650" y="250" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">shipping_address</text>
+    <text x="1775" y="250" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="1641" y="256" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="270" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">shipping_city</text>
+    <text x="1775" y="270" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <text x="1650" y="290" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">shipping_district</text>
+    <text x="1775" y="290" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <rect x="1641" y="296" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="310" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">customer_note</text>
+    <text x="1775" y="310" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(500)</text>
+    <text x="1650" y="330" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">total_product_amount</text>
+    <text x="1775" y="330" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <rect x="1641" y="336" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="350" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">shipping_fee</text>
+    <text x="1775" y="350" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="1950" y="350" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <text x="1650" y="370" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">discount_amount</text>
+    <text x="1775" y="370" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="1950" y="370" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 0</text>
+    <rect x="1641" y="376" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="390" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">final_amount</text>
+    <text x="1775" y="390" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="1650" y="410" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">coupon_id</text>
+    <text x="1775" y="410" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1950" y="410" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <rect x="1641" y="416" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="430" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">status</text>
+    <text x="1775" y="430" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('pending/shipped...')</text>
+    <text x="1950" y="430" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'pending'</text>
+    <text x="1650" y="450" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">cancel_reason</text>
+    <text x="1775" y="450" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="1641" y="456" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="470" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">cancelled_at</text>
+    <text x="1775" y="470" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1650" y="490" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="1775" y="490" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1950" y="490" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <rect x="1641" y="496" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="510" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="1775" y="510" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1950" y="510" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng order_items -->
+  <g filter="url(#shadow)">
+    <rect x="1240" y="420" width="310" height="280" rx="6" fill="#FFFFFF" stroke="#1ABC9C" stroke-width="1.8"/>
+    <path d="M 1240 456 L 1240 426 Q 1240 420 1246 420 L 1544 420 Q 1550 420 1550 426 L 1550 456 Z" fill="#D0ECE7"/>
+    <line x1="1240" y1="456" x2="1550" y2="456" stroke="#1ABC9C" stroke-width="1.5"/>
+    <text x="1395" y="438" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">order_items</text>
+    <text x="1395" y="451" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Chi tiết đơn & Snapshot)</text>
+    <text x="1250" y="470" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="1375" y="470" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1540" y="470" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="1241" y="476" width="308" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="490" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">order_id</text>
+    <text x="1375" y="490" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1540" y="490" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, UQ_ORD_UNIT]</text>
+    <text x="1250" y="510" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">product_id</text>
+    <text x="1375" y="510" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1540" y="510" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, Comp_FK]</text>
+    <rect x="1241" y="516" width="308" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="530" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">product_unit_id</text>
+    <text x="1375" y="530" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1540" y="530" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, Comp_FK, UQ]</text>
+    <text x="1250" y="550" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">product_name</text>
+    <text x="1375" y="550" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <text x="1540" y="550" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">Snapshot</text>
+    <rect x="1241" y="556" width="308" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="570" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">product_sku</text>
+    <text x="1375" y="570" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(50)</text>
+    <text x="1540" y="570" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">Snapshot</text>
+    <text x="1250" y="590" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">unit_serial_number</text>
+    <text x="1375" y="590" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <text x="1540" y="590" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">Snapshot</text>
+    <rect x="1241" y="596" width="308" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="610" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">price</text>
+    <text x="1375" y="610" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="1540" y="610" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">Snapshot</text>
+    <text x="1250" y="630" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">quantity</text>
+    <text x="1375" y="630" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1540" y="630" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 1</text>
+    <rect x="1241" y="636" width="308" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="650" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">subtotal</text>
+    <text x="1375" y="650" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="1250" y="670" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">warranty_period</text>
+    <text x="1375" y="670" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(50)</text>
+    <text x="1540" y="670" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">Snapshot</text>
+    <rect x="1241" y="676" width="308" height="20" fill="#F7FAFC"/>
+    <text x="1250" y="690" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="1375" y="690" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1540" y="690" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+  </g>
+  <!-- Bảng payments -->
+  <g filter="url(#shadow)">
+    <rect x="1640" y="660" width="320" height="320" rx="6" fill="#FFFFFF" stroke="#28A745" stroke-width="1.8"/>
+    <path d="M 1640 696 L 1640 666 Q 1640 660 1646 660 L 1954 660 Q 1960 660 1960 666 L 1960 696 Z" fill="#D4EDDA"/>
+    <line x1="1640" y1="696" x2="1960" y2="696" stroke="#28A745" stroke-width="1.5"/>
+    <text x="1800" y="678" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">payments</text>
+    <text x="1800" y="691" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Lịch sử thanh toán (COD & Chuyển khoản))</text>
+    <text x="1650" y="710" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="1775" y="710" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1950" y="710" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="1641" y="716" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="730" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">order_id</text>
+    <text x="1775" y="730" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1950" y="730" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <text x="1650" y="750" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">payment_method</text>
+    <text x="1775" y="750" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('cod','bank')</text>
+    <rect x="1641" y="756" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="770" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">amount</text>
+    <text x="1775" y="770" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <text x="1650" y="790" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">status</text>
+    <text x="1775" y="790" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('pending/comp...')</text>
+    <text x="1950" y="790" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'pending'</text>
+    <rect x="1641" y="796" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="810" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">transaction_code</text>
+    <text x="1775" y="810" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <text x="1650" y="830" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">bank_name</text>
+    <text x="1775" y="830" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(100)</text>
+    <rect x="1641" y="836" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="850" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">account_number</text>
+    <text x="1775" y="850" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(50)</text>
+    <text x="1650" y="870" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">transfer_note</text>
+    <text x="1775" y="870" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <rect x="1641" y="876" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="890" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">payment_proof_image</text>
+    <text x="1775" y="890" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(255)</text>
+    <text x="1650" y="910" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">confirmed_by_user_id</text>
+    <text x="1775" y="910" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="1950" y="910" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <rect x="1641" y="916" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="930" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">confirmed_at</text>
+    <text x="1775" y="930" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1650" y="950" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">created_at</text>
+    <text x="1775" y="950" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1950" y="950" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <rect x="1641" y="956" width="318" height="20" fill="#F7FAFC"/>
+    <text x="1650" y="970" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">updated_at</text>
+    <text x="1775" y="970" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="1950" y="970" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">ON UPDATE NOW()</text>
+  </g>
+  <!-- Bảng coupon_usages -->
+  <g filter="url(#shadow)">
+    <rect x="2040" y="550" width="310" height="220" rx="6" fill="#FFFFFF" stroke="#B85450" stroke-width="1.8"/>
+    <path d="M 2040 586 L 2040 556 Q 2040 550 2046 550 L 2344 550 Q 2350 550 2350 556 L 2350 586 Z" fill="#F8CECC"/>
+    <line x1="2040" y1="586" x2="2350" y2="586" stroke="#B85450" stroke-width="1.5"/>
+    <text x="2195" y="568" font-family="Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold" fill="#1A202C" text-anchor="middle">coupon_usages</text>
+    <text x="2195" y="581" font-family="Segoe UI, Roboto, sans-serif" font-size="10" fill="#4A5568" text-anchor="middle">(Nhật ký sử dụng mã giảm giá)</text>
+    <text x="2050" y="600" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">id</text>
+    <text x="2175" y="600" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="2340" y="600" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#E53E3E" text-anchor="end">[PK]</text>
+    <rect x="2041" y="606" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="620" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">coupon_id</text>
+    <text x="2175" y="620" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="2340" y="620" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <text x="2050" y="640" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">order_id</text>
+    <text x="2175" y="640" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="2340" y="640" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK]</text>
+    <rect x="2041" y="646" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="660" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">user_id</text>
+    <text x="2175" y="660" font-family="Consolas, monospace" font-size="10" fill="#4A5568">INT UNSIGNED</text>
+    <text x="2340" y="660" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#3182CE" text-anchor="end">[FK, Guest NULL]</text>
+    <text x="2050" y="680" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">customer_email</text>
+    <text x="2175" y="680" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(191)</text>
+    <rect x="2041" y="686" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="700" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">customer_phone</text>
+    <text x="2175" y="700" font-family="Consolas, monospace" font-size="10" fill="#4A5568">VARCHAR(20)</text>
+    <text x="2050" y="720" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">discount_applied</text>
+    <text x="2175" y="720" font-family="Consolas, monospace" font-size="10" fill="#4A5568">BIGINT UNSIGNED</text>
+    <rect x="2041" y="726" width="308" height="20" fill="#F7FAFC"/>
+    <text x="2050" y="740" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">used_at</text>
+    <text x="2175" y="740" font-family="Consolas, monospace" font-size="10" fill="#4A5568">DATETIME</text>
+    <text x="2340" y="740" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT NOW()</text>
+    <text x="2050" y="760" font-family="Consolas, monospace" font-size="11" font-weight="bold" fill="#2D3748">status</text>
+    <text x="2175" y="760" font-family="Consolas, monospace" font-size="10" fill="#4A5568">ENUM('used','canc')</text>
+    <text x="2340" y="760" font-family="Segoe UI, sans-serif" font-size="9" font-weight="bold" fill="#718096" text-anchor="end">DEFAULT 'used'</text>
+  </g>
+</svg>
